@@ -10,4 +10,7 @@
   "buildpacks": [
 
   ]
+   "scripts": {
+    "postdeploy": "npm run scrape && npm start"
+  }
 }
