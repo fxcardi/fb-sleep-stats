@@ -1,6 +1,7 @@
 {
   "name": "fb-sleep-stats",
   "scripts": {
+        "postdeploy": "npm run scrape && npm start"
   },
   "env": {
   },
@@ -10,7 +11,4 @@
   "buildpacks": [
 
   ]
-   "scripts": {
-    "postdeploy": "npm run scrape && npm start"
-  }
 }
