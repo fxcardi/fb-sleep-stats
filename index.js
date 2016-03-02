@@ -25,5 +25,5 @@ process.on('uncaughtException', function(err) {
 });
 
 // Start app
-app.listen(PORT,'fbsleep.herokuapp.com');
+app.listen(PORT);
 console.log('Running on http://localhost:' + PORT);
