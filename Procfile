@@ -1,2 +1,2 @@
-web : npm run scrape
-web : npm start
+npm run scrape
+npm start
